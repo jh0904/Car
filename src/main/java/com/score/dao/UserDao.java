@@ -3,8 +3,6 @@ package com.score.dao;
 import com.score.bean.Park;
 import com.score.bean.User;
 import com.score.bean.UserVo;
-import org.apache.ibatis.annotations.Mapper;
-
 import java.util.List;
 
 /**
@@ -12,7 +10,6 @@ import java.util.List;
  * @author hmg
  *
  */
-@Mapper //标识为mybatis数据层接口
 public interface UserDao {
 	/**
 	 *全量查询用户
